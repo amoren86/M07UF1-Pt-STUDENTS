@@ -51,7 +51,7 @@ public class Repository {
 	}
 
 	// Repository operations
-	public List<String> getCycles() {
+	public static List<String> getCycles() {
 		List<String> cycles = new ArrayList<>(cyclesModules.keySet());
 		Collections.sort(cycles);
 		return cycles;
